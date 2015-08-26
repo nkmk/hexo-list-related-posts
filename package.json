@@ -1,0 +1,26 @@
+{
+  "name": "hexo-list-related-posts",
+  "version": "0.0.0",
+  "description": "A hexo plugin that generates a list of links to related posts based on tags.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkmk/hexo-list-related-posts.git"
+  },
+  "keywords": [
+    "hexo",
+    "plugin",
+    "helper",
+    "list",
+    "related"
+  ],
+  "author": "nkmk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkmk/hexo-list-related-posts/issues"
+  },
+  "homepage": "https://github.com/nkmk/hexo-list-related-posts#readme",
+  "dependencies": {
+    "lodash.assign": "^3.2.0"
+  }
+}
