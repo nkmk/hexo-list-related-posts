@@ -20,6 +20,9 @@ Add `<%- list_related_posts([options]) %>` in template file for article.
 | maxCount| Maximum count of a list | `5` |
 | ulClass| Class name of ul | `'related-posts'` |
 | liClass| Class name of li | `'related-posts-item'` |
+| generateAbstract| Generate abstract or not | `false` |
+| abstractClass| Class name of abstract of content | `'related-posts-item-abstract'` |
+| abstractLength| Length of abstract | `110` |
 | orderBy| `'date'` or `'random'`<br> When the number of matched tags is the same, list is ordered by date or random. | `'date'` |
 | isAscending| Ascending or descending when list is ordered by date. | `false`
 
@@ -27,4 +30,16 @@ Add `<%- list_related_posts([options]) %>` in template file for article.
 
 ```html
 <%- list_related_posts({maxCount: 10, orderBy: 'random'}) %>
+```
+
+### Abstract of content CSS
+```
+.related-posts-item-abstract {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;  /* ends with '...' of abstract */
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+  margin-bottom: 10px;
+}
 ```
