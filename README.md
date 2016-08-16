@@ -32,6 +32,11 @@ Add `<%- list_related_posts([options]) %>` in template file for article.
 <%- list_related_posts({maxCount: 10, orderBy: 'random'}) %>
 ```
 
+To generate abstract of content
+```html
+<%- list_related_posts({maxCount: 10, orderBy: 'random', generateAbstract: true}) %>
+```
+
 ### Abstract of content CSS
 ```
 .related-posts-item-abstract {
