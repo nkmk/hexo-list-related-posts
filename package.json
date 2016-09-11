@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/nkmk/hexo-list-related-posts#readme",
   "dependencies": {
-    "lodash.assign": "^3.2.0"
+    "lodash.assign": "^3.2.0",
+    "striptags": "^2.1.1"
   }
 }
