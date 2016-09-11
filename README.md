@@ -37,14 +37,11 @@ To generate abstract of content
 <%- list_related_posts({maxCount: 10, orderBy: 'random', generateAbstract: true}) %>
 ```
 
-### Abstract of content CSS
+#### Abstract of content CSS
 ```
 .related-posts-item-abstract {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;  /* ends with '...' of abstract */
-  font-size: 14px;
-  color: rgb(136, 136, 136);
-  margin-bottom: 10px;
 }
 ```
