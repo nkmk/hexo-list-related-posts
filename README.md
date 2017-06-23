@@ -18,8 +18,10 @@ Add `<%- list_related_posts([options]) %>` in template file for article.
 | option | description | default |
 | :--- | :--- | :--- |
 | maxCount| Maximum count of a list | `5` |
+| pClass| Class name of p when there is no related post | `'related-posts-none'` |
 | ulClass| Class name of ul | `'related-posts'` |
 | liClass| Class name of li | `'related-posts-item'` |
+| aClass| Class name of a | `'related-posts-link'` |
 | generateAbstract| Generate abstract or not | `false` |
 | abstractClass| Class name of abstract of content | `'related-posts-item-abstract'` |
 | abstractLength| Length of abstract | `110` |
