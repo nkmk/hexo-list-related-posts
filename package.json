@@ -1,6 +1,6 @@
 {
   "name": "hexo-list-related-posts",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A hexo plugin that generates a list of links to related posts based on tags.",
   "main": "lib/index.js",
   "repository": {
